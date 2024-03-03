@@ -5,8 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
-
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <title>陳冠宇Blog</title>
@@ -17,7 +15,7 @@
 <body>
   <header class="header">
     <nav class="nav">
-      <img src="img/logo.png" class="nav__logo" id="logo" designer="Jonas" data-version-number="3.0" />
+      <img src="img/logo.png" class="nav__logo" id="logo" />
       <ul class="nav__links">
         <li class="nav__item">
           <a class="nav__link" href="#section--1">關於我</a>
@@ -28,16 +26,12 @@
         <li class="nav__item">
           <a class="nav__link" href="#section--3">學習作品</a>
         </li>
-        <!-- <li class="nav__item">
-          <a class="nav__link nav__link--btn btn--show-modal" href="#">Open account</a>
-        </li> -->
       </ul>
     </nav>
 
     <div class="header__title">
       <h1>
         陳冠宇
-        <!-- Green highlight effect -->
         <span class="highlight">部落格</span>
       </h1>
       <h4>
@@ -82,8 +76,17 @@
         <h5 class="features__header">前端實習生(2023-02 ~ 2023-06)</h5>
         <p>
           <strong>
-            在華碩股份有限公司的實習經驗對我來說是一個寶貴的學習機會。在這個專案中，我有幸參與了使用Angular框架作為前端，Spring
-            Boot作為後端的項目。主要任務是根據使用者需求開發網頁應用，其中我負責的工作主要集中在修改前端功能bug修正和使用Formly製作表單。
+            前端基本網頁製作
+          </strong>
+        </p>
+        <p>
+          <strong>
+            Angular Formly
+          </strong>
+        </p>
+        <p>
+          <strong>
+            利用 Ngrx 串接 後端api
           </strong>
         </p>
       </div>
@@ -195,11 +198,11 @@
           <h5 class="testimonial__header">服務型AI象棋專題</h5>
           <blockquote class="testimonial__text">
             <strong>
-              我在大學參與的專題是關於服務型AI象棋對弈的項目。在這個專題中，當玩家先攻時，透過攝像頭讀取棋盤上玩家移動的位置，
-              並找尋最佳下棋位置，機械手臂負責將棋子移至該處。起初計畫使用YOLOv5進行影像辨識，但由於光線不足和文字判斷難題，
-              辨識效率不佳。最終，我們轉用Python終端機進行對弈，並利用機械手臂控制玩家與AI的棋子。儘管專題未按預期進行，
-              但我在過程中學到了團隊協作的重要性，並主動探索在課堂外學習的新知識。這次專題經歷讓我更加理解大學專題強調的是製作過程中的學習成果，
-              而非單一結果。
+              開發環境：Python<br>
+              影像辨識：Yolov5 辨識棋子的文字<br>
+              硬體設備：機械手臂 透過手臂控制玩家與AI的棋子<br>
+              演算法：透過演算法讓電腦自行決斷下棋最佳位置<br>
+              心得：我在過程中學到了團隊協作的重要性，並主動探索在課堂外學習的新知識。
             </strong>
           </blockquote>
           <address class="testimonial__author">
@@ -267,23 +270,9 @@
 
   <div class="modal hidden">
     <button class="btn--close-modal">&times;</button>
-    <!-- <h2 class="modal__header">
-      Open your bank account <br />
-      in just <span class="highlight">5 minutes</span>
-    </h2> -->
-    <!-- <form class="modal__form">
-      <label>First Name</label>
-      <input type="text" />
-      <label>Last Name</label>
-      <input type="text" />
-      <label>Email Address</label>
-      <input type="email" />
-      <button class="btn">Next step &rarr;</button>
-    </form> -->
   </div>
   <div class="overlay hidden"></div>
 
-  <!-- <script src="script.js"></script> -->
 </body>
 
 </html>
