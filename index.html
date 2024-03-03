@@ -1,355 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Bankist | When Banking meets Minimalist</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
 
-    <script defer src="script.js"></script>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav">
-        <img
-          src="img/logo.png"
-          alt="Bankist logo"
-          class="nav__logo"
-          id="logo"
-          designer="Jonas"
-          data-version-number="3.0"
-        />
-        <ul class="nav__links">
-          <li class="nav__item">
-            <a class="nav__link" href="#section--1">Features</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#section--2">Operations</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#section--3">Testimonials</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--show-modal" href="#"
-              >Open account</a
-            >
-          </li>
-        </ul>
-      </nav>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>陳冠宇Blog</title>
 
-      <div class="header__title">
-        <h1>
-          When
-          <!-- Green highlight effect -->
-          <span class="highlight">banking</span>
-          meets<br />
-          <span class="highlight">minimalist</span>
-        </h1>
-        <h4>A simpler banking experience for a simpler life.</h4>
-        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
-        <img
-          src="img/hero.png"
-          class="header__img"
-          alt="Minimalist bank items"
-        />
-      </div>
-    </header>
+  <script defer src="script.js"></script>
+</head>
 
-    <section class="section" id="section--1">
-      <div class="section__title">
-        <h2 class="section__description">Features</h2>
-        <h3 class="section__header">
-          Everything you need in a modern bank and more.
-        </h3>
-      </div>
-
-      <div class="features">
-        <img
-          src="img/digital-lazy.jpg"
-          data-src="img/digital.jpg"
-          alt="Computer"
-          class="features__img lazy-img"
-        />
-        <div class="features__feature">
-          <div class="features__icon">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-monitor"></use>
-            </svg>
-          </div>
-          <h5 class="features__header">100% digital bank</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
-            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
-            debitis ducimus.
-          </p>
-        </div>
-
-        <div class="features__feature">
-          <div class="features__icon">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-trending-up"></use>
-            </svg>
-          </div>
-          <h5 class="features__header">Watch your money grow</h5>
-          <p>
-            Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
-            inventore ab? Nulla incidunt eius numquam sequi iste pariatur
-            quibusdam!
-          </p>
-        </div>
-        <img
-          src="img/grow-lazy.jpg"
-          data-src="img/grow.jpg"
-          alt="Plant"
-          class="features__img lazy-img"
-        />
-
-        <img
-          src="img/card-lazy.jpg"
-          data-src="img/card.jpg"
-          alt="Credit card"
-          class="features__img lazy-img"
-        />
-        <div class="features__feature">
-          <div class="features__icon">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-credit-card"></use>
-            </svg>
-          </div>
-          <h5 class="features__header">Free debit card included</h5>
-          <p>
-            Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
-            eveniet consequatur odit quam quos possimus assumenda dicta fuga
-            inventore ab.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="section--2">
-      <div class="section__title">
-        <h2 class="section__description">Operations</h2>
-        <h3 class="section__header">
-          Everything as simple as possible, but no simpler.
-        </h3>
-      </div>
-
-      <div class="operations">
-        <div class="operations__tab-container">
-          <button
-            class="btn operations__tab operations__tab--1 operations__tab--active"
-            data-tab="1"
-          >
-            <span>01</span>Instant Transfers
-          </button>
-          <button class="btn operations__tab operations__tab--2" data-tab="2">
-            <span>02</span>Instant Loans
-          </button>
-          <button class="btn operations__tab operations__tab--3" data-tab="3">
-            <span>03</span>Instant Closing
-          </button>
-        </div>
-        <div
-          class="operations__content operations__content--1 operations__content--active"
-        >
-          <div class="operations__icon operations__icon--1">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-upload"></use>
-            </svg>
-          </div>
-          <h5 class="operations__header">
-            Tranfser money to anyone, instantly! No fees, no BS.
-          </h5>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-
-        <div class="operations__content operations__content--2">
-          <div class="operations__icon operations__icon--2">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-home"></use>
-            </svg>
-          </div>
-          <h5 class="operations__header">
-            Buy a home or make your dreams come true, with instant loans.
-          </h5>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-        </div>
-        <div class="operations__content operations__content--3">
-          <div class="operations__icon operations__icon--3">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-user-x"></use>
-            </svg>
-          </div>
-          <h5 class="operations__header">
-            No longer need your account? No problem! Close it instantly.
-          </h5>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="section--3">
-      <div class="section__title section__title--testimonials">
-        <h2 class="section__description">Not sure yet?</h2>
-        <h3 class="section__header">
-          Millions of Bankists are already making their lifes simpler.
-        </h3>
-      </div>
-
-      <div class="slider">
-        <div class="slide">
-          <div class="testimonial">
-            <h5 class="testimonial__header">Best financial decision ever!</h5>
-            <blockquote class="testimonial__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Accusantium quas quisquam non? Quas voluptate nulla minima
-              deleniti optio ullam nesciunt, numquam corporis et asperiores
-              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
-              id alias reiciendis, perferendis facere pariatur dolore veniam
-              autem esse non voluptatem saepe provident nihil molestiae.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Aarav Lynn</h6>
-              <p class="testimonial__location">San Francisco, USA</p>
-            </address>
-          </div>
-        </div>
-
-        <div class="slide">
-          <div class="testimonial">
-            <h5 class="testimonial__header">
-              The last step to becoming a complete minimalist
-            </h5>
-            <blockquote class="testimonial__text">
-              Quisquam itaque deserunt ullam, quia ea repellendus provident,
-              ducimus neque ipsam modi voluptatibus doloremque, corrupti
-              laborum. Incidunt numquam perferendis veritatis neque repellendus.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
-              deserunt exercitationem deleniti.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Miyah Miles</h6>
-              <p class="testimonial__location">London, UK</p>
-            </address>
-          </div>
-        </div>
-
-        <div class="slide">
-          <div class="testimonial">
-            <h5 class="testimonial__header">
-              Finally free from old-school banks
-            </h5>
-            <blockquote class="testimonial__text">
-              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
-              incidunt commodi architecto numquam omnis nulla autem,
-              necessitatibus blanditiis modi similique quidem. Odio aliquam
-              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
-              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
-              alias reiciendis, perferendis facere.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Francisco Gomes</h6>
-              <p class="testimonial__location">Lisbon, Portugal</p>
-            </address>
-          </div>
-        </div>
-
-        <button class="slider__btn slider__btn--left">&larr;</button>
-        <button class="slider__btn slider__btn--right">&rarr;</button>
-        <div class="dots"></div>
-      </div>
-    </section>
-
-    <section class="section section--sign-up">
-      <div class="section__title">
-        <h3 class="section__header">
-          The best day to join Bankist was one year ago. The second best is
-          today!
-        </h3>
-      </div>
-      <button class="btn btn--show-modal">Open your free account today!</button>
-    </section>
-
-    <footer class="footer">
-      <ul class="footer__nav">
-        <li class="footer__item">
-          <a class="footer__link" href="#">About</a>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="img/logo.png" class="nav__logo" id="logo" designer="Jonas" data-version-number="3.0" />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">關於我</a>
         </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Pricing</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">挑戰自我</a>
         </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Terms of Use</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">學習作品</a>
         </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Privacy Policy</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Careers</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Blog</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Contact Us</a>
-        </li>
+        <!-- <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Open account</a>
+        </li> -->
       </ul>
-      <img src="img/icon.png" alt="Logo" class="footer__logo" />
-      <p class="footer__copyright">
-        &copy; Copyright by
-        <a
-          class="footer__link twitter-link"
-          target="_blank"
-          href="https://twitter.com/jonasschmedtman"
-          >Jonas Schmedtmann</a
-        >. Use for learning or your portfolio. Don't use to teach. Don't claim
-        as your own product.
-      </p>
-    </footer>
+    </nav>
 
-    <div class="modal hidden">
-      <button class="btn--close-modal">&times;</button>
-      <h2 class="modal__header">
-        Open your bank account <br />
-        in just <span class="highlight">5 minutes</span>
-      </h2>
-      <form class="modal__form">
-        <label>First Name</label>
-        <input type="text" />
-        <label>Last Name</label>
-        <input type="text" />
-        <label>Email Address</label>
-        <input type="email" />
-        <button class="btn">Next step &rarr;</button>
-      </form>
+    <div class="header__title">
+      <h1>
+        陳冠宇
+        <!-- Green highlight effect -->
+        <span class="highlight">部落格</span>
+      </h1>
+      <h4>
+        學會一個人生活，是成長的必修課
+      </h4>
+      <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      <img src="img/work.png" class="header__img" />
     </div>
-    <div class="overlay hidden"></div>
+  </header>
 
-    <!-- <script src="script.js"></script> -->
-  </body>
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">關於我</h2>
+      <h3 class="section__header">
+        個性隨和且容易相處，對程式開發充滿興趣
+      </h3>
+    </div>
+
+    <div class="features">
+      <img src="img/pccu.png" data-src="img/pccu.png" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-monitor"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">資訊工程學系(CSIE)</h5>
+        <p>
+          <strong>
+            在學期間，擔任數位系統實驗助教、電子電路學助教，利用教學的期間提升自己的實驗技能，一方面提升自己說話技巧和溝通能力。
+            透過這經驗，我成長了很多，學會更好地表達自己並尊重他人的學習。
+          </strong>
+        </p>
+      </div>
+
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-book"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">前端實習生(2023-02 ~ 2023-06)</h5>
+        <p>
+          <strong>
+            在華碩股份有限公司的實習經驗對我來說是一個寶貴的學習機會。在這個專案中，我有幸參與了使用Angular框架作為前端，Spring
+            Boot作為後端的項目。主要任務是根據使用者需求開發網頁應用，其中我負責的工作主要集中在修改前端功能bug修正和使用Formly製作表單。
+          </strong>
+        </p>
+      </div>
+      <img src="img/ASUS.jpg" data-src="img/ASUS.jpg" class="features__img lazy-img" />
+
+      <img src="img/udemy.png" data-src="img/udemy.png" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-book"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">畢業後-自我成長</h5>
+        <p>
+          <strong>
+            在當兵休假期，我自學HTML、CSS，透過udemy課程學習。一開始，時間規劃只考慮學習，未注意到休息時間。漸漸發現學習過度容易懈怠，於是重新安排每天的時間，充分利用每刻學習，提高效率。這段經歷不僅加強了技術能力，也培養了時間管理和自律的重要性。
+          </strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">挑戰自我</h2>
+      <h3 class="section__header">
+        所有的努力，都是為了成就更好的我
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>自我規劃
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>自我學習
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>自我挑戰
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-clock"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          時間的積壓，智慧的發揮：零星時間的自我規劃
+        </h5>
+        <p>
+          <strong>
+            時間是我們最珍貴的資源，善用時間是成功的秘訣，建立明確目標，制定合理的讀書計畫，
+            不僅讓我們更有效率地學習，也是成功之路上不可或缺的一部分。唯有透過這種自我規劃，
+            我們能夠在生活的點滴中累積豐厚的知識和成就。
+          </strong>
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-book-open"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          不向前走，不知路遠；不努力學習，不明白真理
+        </h5>
+        <p>
+          <strong>
+            在自我學習的道路上，每一步都是邁向知識的深處。堅持努力，挑戰自己，這是通向成就的階梯。
+            程式語言是我們未來的工具，唯有自我學習不斷前行，才能發現無盡可能，探索自己的真理。
+            這是一場充滿挑戰與收獲的冒險，迎向知識的廣闊領域。
+          </strong>
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          最具挑戰性的挑戰莫過於提升自我
+        </h5>
+        <p>
+          <strong>
+            在程式語言的世界中，最具挑戰性的就是要不斷的學習、精進自己，跟上科技發展的步伐。
+            程式不僅是語法和演算法，更是一種不斷進化的思維方式。隨著新技術的不斷涌現，程式設計師需要保持敏銳的洞察力，學會應對不斷變化的需求。
+            持續學習成為磨練技能的關鍵。只有在學習的道路上保持謙卑與好奇，才能不斷挑戰自我，迎接程式設計的無盡可能。
+          </strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">學習作品</h2>
+      <h3 class="section__header">
+        作品為證，學習之果
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">服務型AI象棋專題</h5>
+          <blockquote class="testimonial__text">
+            <strong>
+              我在大學參與的專題是關於服務型AI象棋對弈的項目。在這個專題中，當玩家先攻時，透過攝像頭讀取棋盤上玩家移動的位置，
+              並找尋最佳下棋位置，機械手臂負責將棋子移至該處。起初計畫使用YOLOv5進行影像辨識，但由於光線不足和文字判斷難題，
+              辨識效率不佳。最終，我們轉用Python終端機進行對弈，並利用機械手臂控制玩家與AI的棋子。儘管專題未按預期進行，
+              但我在過程中學到了團隊協作的重要性，並主動探索在課堂外學習的新知識。這次專題經歷讓我更加理解大學專題強調的是製作過程中的學習成果，
+              而非單一結果。
+            </strong>
+          </blockquote>
+          <address class="testimonial__author">
+            <a href="https://drive.google.com/drive/folders/15RsImWw4CSFMYAZ50ebUYDgU9arTH2zh?usp=drive_link"><img
+                src="img/google.png" class="nav__logo" id="logo" designer="Jonas" data-version-number="3.0" /></a>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Udemy課程作品
+          </h5>
+          <blockquote class="testimonial__text">
+            <strong>
+              透過Udemy深入學習HTML、JavaScript、CSS，並涉獵React和Vue框架，雖學習路程並非一帆風順，但透過毅力和堅持，成功完成了整個課程。
+              這段旅程雖充滿挑戰，卻也讓我深刻了解到技能的精進需要時間和耐心。透過實作專案，我不僅磨練了編碼技巧，還培養了解決問題的能力。
+              這段學習經歷不僅激發了我對前端開發的熱情，更為未來的技術探索打下基礎。
+            </strong>
+          </blockquote>
+          <address class="testimonial__author">
+            <a href="https://github.com/chenyu-0721?tab=repositories"><img src="img/github.jpg" class="nav__logo"
+                id="logo" designer="Jonas" data-version-number="3.0" /></a>
+          </address>
+        </div>
+      </div>
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        學習旅程的充滿挑戰，每一步都會遭遇困難。只要肯努力跨越障礙，所得成就將屬於自己。
+      </h3>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#section--1">關於我</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#section--2">挑戰自我</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#section--3">學習作品</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">Facebook</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://www.instagram.com/chen012355/">Instagram</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://github.com/chenyu-0721?tab=repositories">Github</a>
+      </li>
+    </ul>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Open your bank account <br />
+      in just <span class="highlight">5 minutes</span>
+    </h2>
+    <form class="modal__form">
+      <label>First Name</label>
+      <input type="text" />
+      <label>Last Name</label>
+      <input type="text" />
+      <label>Email Address</label>
+      <input type="email" />
+      <button class="btn">Next step &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <!-- <script src="script.js"></script> -->
+</body>
+
 </html>
